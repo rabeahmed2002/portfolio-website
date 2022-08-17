@@ -5,16 +5,16 @@ import {Link} from 'react-scroll'
 
 const Home = () => {
   return (
-    <div name="home" className='md:h-screen mt:48 pt-80 pb-36 md:w-full bg-gradient-to-b from-black to-gray-900'>
+    <div name="home" className='md:h-screen mt:48 pt-40 pb-36 md:w-full flex justify-center bg-gradient-to-b from-black to-gray-900'>
 
-        <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-5/6 md:h-full px-4 md:flex-row'>
+        <div className='mt-15 max-w-screen-lg mx-auto flex flex-col items-center justify-center h-5/6 md:h-full px-4 md:flex-row'>
 
             <div className='flex flex-col justify-center h-full'>
                 <h2 className='text-5xl  md:text-6xl font-bold text-white'>
                     I'm a MERN Stack Developer
                 </h2>
-                <p className='text-gray-500 text-1xl py-5 max-w-md'>
-                With a 3 months experience in building MERN apps, having several projects created, I hold command in building React apps, having to know how to use hooks, jsx, forms etc
+                <p className='text-gray-500 text-1xl py-5 max-w-md '>
+                Junior MERN stack developer and a passionate Ethereum Blockchain developer with a demonstrated history of working in the computer software industry. Skilled in Javascript, React.js, Node.js, Solidity, Python, C++, Microsoft Excel, and Graphic Design with a Bachelor of Science - BS focused in Computer Science from Karachi University.
                 </p>
 
                 <div>
@@ -26,7 +26,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='w-5/6 mt-24 flex justify-center'>
-                <img src={HeroImage} alt="Image" className='rounded-3xl md:mx-auto w-1/3 md:w-80'/>
+                <img src={HeroImage} alt="Image" className='rounded-3xl     md:mx-auto w-2/3 md:w-80 mb-20'/>
             </div>
         </div>
     </div>

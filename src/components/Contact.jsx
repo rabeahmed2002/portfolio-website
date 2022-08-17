@@ -2,14 +2,14 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div name="contact" className="w-full h-screen bg-gradient-to-b from-gray-900 to-black p-4 text-white">
+    <div name="contact" className=" w-full h-screen bg-gradient-to-b from-gray-900 to-black p-4 text-white">
 
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         
-        <div className="pb-8">
+        <div className="pb-8 mt-20">
 
-          <p className="text-5xl font-bold inline border-b-4 border-gray-500">Get in touch</p>
-          <p className="py-6">Submit the form below to get in touch with me</p>
+          <p className="text-5xl font-bold text-center mt-10">Get in touch</p>
+          <p className="text-center mt-15">Submit the form below to get in touch with me</p>
 
         </div>
 
